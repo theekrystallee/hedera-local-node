@@ -2,7 +2,7 @@
   "name": "hedera-local-node",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "hostRequirements": {
-    "cpus": 4,
+    "cpus": 6,
     "memory": "8gb"
   },
   "postStartCommand": "npm install &&  npm run build &&  sudo npm install -g && hedera start -d",
